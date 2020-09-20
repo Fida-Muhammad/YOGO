@@ -202,35 +202,26 @@ nav .navbar-brand{
     box-shadow: 0 0 15px 1px rgba(166,163,223,0.5);
 }
 .carousel-caption h6{
-    margin-top: 50px;
+   
+   margin-top: 90px;
     font-weight: bold;
     color: #000;
 }
 .carousel-caption small{
+  
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     color: #000 !important;
     display: block;
 }
 .carousel-caption p{
     text-align: center;
-    padding: 0 50px;
+    padding: 0 30px;
     color: #808080;
     font-size:15px ;
 }
 .carousel-indicators li{
     background-color: #6900d1 !important;
-}
-@media screen and(max-width:800px){
-    .carousel-item{
-        height: 550px;
-    }
-    .carousel-caption{
-        margin-bottom: 50px;
-    }
-    .carousel-caption h6{
-        padding-top: 50px;
-    }
 }
 
 
@@ -285,4 +276,11 @@ nav .navbar-brand{
     padding-bottom: 20px;
     font-size: 14px;
     display: block;
+}
+
+
+@media only screen and(max-width:780px){
+    .carousel-caption h6{
+       margin-top: 50px;
+    }
 }
